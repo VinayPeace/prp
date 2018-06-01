@@ -1,0 +1,21 @@
+package basics;
+
+public class CarExample {
+	public static void main(String []args) {
+		Carblue car=new Carblue();
+		
+		 car.setSpeed((200));
+		 CarExample carExample = new CarExample();
+		 
+		 CarExample.aMethod(CarExample);
+		 System.out.println("speed"+car.getSpeed());
+	}
+	public void aMethod(Carblue car) {
+		car.setSpeed(300);
+		
+	}
+		 
+		
+		
+
+}
